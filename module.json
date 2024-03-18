@@ -1,0 +1,97 @@
+{
+  "id": "pf2e-ap193-195-sky-kings-tomb",
+  "title": "Sky King's Tomb - Basis Pack",
+  "description": "Contains the Player's guide and common dependencies for the Sky King's Tomb Adventure Path modules.",
+  "manifest": "",
+  "download": "",
+  "url": "https://paizo.com/store/pathfinder/adventures/adventurePath/skyKingsTomb",
+  "version": "1.2.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "REPLACE ME",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "icon",
+      "url": "https://cdn.paizo.com/image/navigation/Nav-Logo-Global.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "adventures",
+      "label": "Sky King's Tomb - Player's Guide",
+      "path": "packs/adventures",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Adventure",
+      "flags": {}
+    }
+  ],
+  "scripts": [],
+  "esmodules": [
+    "./index.js"
+  ],
+  "styles": [
+    "./style.css"
+  ],
+  "authors": [
+    {
+      "name": "Paizo",
+      "url": "https://paizo.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "11.306",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "flags": {
+          "sigil": {
+            "localDevVersion": {
+              "distPath": "dist"
+            }
+          }
+        },
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.12.7",
+          "verified": "5.12.7"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-ap193-195-sky-kings-tomb": {
+      "adventureImporter": {
+        "Compendium.pf2e-ap193-195-sky-kings-tomb.adventures.Adventure.pf2skykiadv00001": {
+          "initialJournalEntryId": "pf2skyki01player",
+          "initialJournalPageId": "01playersguide00"
+        }
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Sky King's Tomb",
+      "sorting": "m",
+      "color": "#011e4b",
+      "packs": [
+        "adventures"
+      ],
+      "folders": []
+    }
+  ],
+  "protected": false
+}
